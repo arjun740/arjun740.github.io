@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style-01.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header-bar">
+      <img class="vels__logo" src="New-Project-27 (1).png" alt="vels-logo" />
+
+      <nav class="main__nav__links">
+        <ul class="main__nav__list">
+          <li class="department-link">
+            <a href="#section-01" class="header__link" id="home">Home</a>
+          </li>
+          <li class="department-link department-modal-link">
+            <a href="#" class="header__link department-menu">department</a>
+            <div id="container" class="container unactive">
+              <div class="container--box">
+                <div class="department__container-department">
+                  <div class="align-department">
+                    <p class="department-heading">department</p>
+                  </div>
+                  <div class="departmenti-name-list"></div>
+                </div>
+                <div class="department__container-courses unactive">
+                  <div class="align-department">
+                    <p class="department-heading">course</p>
+                  </div>
+                  <div class="department-course">
+                    <ul class="department-course-list"></ul>
+                  </div>
+                </div>
+                <div class="department__container-semester unactive">
+                  <div class="align-department">
+                    <p id="semester-heading" class="department-heading">
+                      semester
+                    </p>
+                  </div>
+                  <div class="semester">
+                    <ul class="semester-list">
+                      <li class="semester-link-container"></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="container-02 unactive">
+                <section class="study_material">
+                  <div class="study_material_notes-container">
+                    <ul class="study_material_notes-list">
+                      <h3 class="semester-no unactive">semester</h3>
+                    </ul>
+                  </div>
+                  <div class="study_material_container">
+                    <ul class="study_material-list" style="text-align: center">
+                      <li>
+                        <a
+                          class="study_material-link materials_link"
+                          data-id="Notes"
+                          >Notes</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="study_material-link materials_link"
+                          data-id="Syllabus"
+                          >Syllabus</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="study_material-link materials_link"
+                          data-id="Qn Papers"
+                          >Qn Papers</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="study_material-link materials_link"
+                          data-id="Books"
+                          >Books</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="study_material_unit-container unactive">
+                    <ul
+                      class="study_material_unit-list"
+                      style="text-align: center"
+                    >
+                      <!-- <li>
+                        <a href="" class="study_material-link unit-link"
+                          >Unit 1 Notes</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="study_material-link unit-link"
+                          >Unit 2 Notes</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="study_material-link unit-link"
+                          >Unit 3 Notes</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="study_material-link unit-link"
+                          >Unit 4 Notes</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="study_material-link unit-link"
+                          >Unit 5 Notes</a
+                        >
+                      </li> -->
+                    </ul>
+                  </div>
+                  <div class="semester-qn-container unactive">
+                    <ul class="semester-qn-list" style="text-align: center">
+                      <li>
+                        <a href="#" class="semester-qn-link"
+                          >Semester Qn Paper 2023-I</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="semester-qn-link"
+                          >Semester Qn Paper 2022-II</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="semester-qn-link"
+                          >Semester Qn Paper 2022-III</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="semester-qn-link"
+                          >Semester Qn Paper 2021-IV</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="semester-qn-link"
+                          >Semester Qn Paper 2021-V</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="reference-book-container unactive">
+                    <ul class="reference-book-list">
+                      <li>
+                        <a href="#" class="reference-link">Ref Book name</a>
+                      </li>
+                      <li>
+                        <a href="#" class="reference-link">Ref Book name</a>
+                      </li>
+                      <li>
+                        <a href="#" class="reference-link">Ref Book name</a>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </li>
+          <li class="department-link">
+            <a href="#" class="header__link">Clubs</a>
+          </li>
+          <li class="department-link">
+            <a href="#section-02" class="header__link" id="about-us"
+              >About Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="background-image">
+        <div class="content-container">
+          <p class="primary-para">EXPLORE</p>
+          <h2>VELS UNIVERSITY</h2>
+          <span class="icon-container"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </main>
+
+    <section id="section-01" class="section-01">
+      <div class="section-container">
+        <div class="section-heading-container">
+          <ul class="section-01-heading-list">
+            <li><a data-no="1">History</a></li>
+            <li><a data-no="2">Vision</a></li>
+
+            <li><a data-no="3">Message</a></li>
+          </ul>
+        </div>
+        <div class="section-informatin-container">
+          <div
+            class="section-container-info Section-information-history unactive"
+            data-no="1"
+          >
+            <h3>History</h3>
+            <p>
+              Vaels Educational Trust was established in 1992, by Dr. Ishari K
+              Ganesh, M.Com, MBA, B.L, (M.L), Ph.D. a visionary and an eminent
+              educationist. He founded this trust in the fond memory of his
+              beloved father Shri. Ishari Velan, former minister of Tamil Nadu
+              Government. The core mission of Vaels Educational Trust is to open
+              new avenues of learning in order to empower the individuals and
+              help them in becoming self- reliant.
+            </p>
+            <h3>The University</h3>
+            <p>
+              The Ministry of Human Resource Development (MHRD), Government of
+              India (GOI) has honored the Vels Group of Institutions with
+              University status. The university is supported by VAELS trust,
+              with the primary objective of transforming an individual into
+              versatile professional and accomplished human being by developing
+              the necessary Knowledge Skills and Attitude (KSA) and also to
+              imbibe the passion to work towards national service and
+              development. University is driven by an experienced and qualified
+              team of board members. The Board of Management comprises of
+              members from University Grants Commission (UGC) and various fields
+              of knowledge and institutions. This includes members from
+              different industries and sectors, eminent persons outside
+              Academia, senior officials and renowned Academicians. The board
+              meets periodically to frame policies and programmes for the growth
+              and improvement of VISTAS under the leadership of the
+              Vice-Chancellor.
+            </p>
+          </div>
+          <div
+            class="section-container-info Section-information-Vision unactive"
+            data-no="2"
+          >
+            <h3>Vision</h3>
+            <p class="Vision">
+              To build the Institute as an epitome of excellence in higher
+              education by effectively providing standard education and
+              meticulous training for students to make them excel in their
+              profession for betterment of the society.
+            </p>
+            <h3>Mission</h3>
+            <ul>
+              <li>
+                Effectively imparting knowledge and inculcating innovative
+                thinking.
+              </li>
+              <li>
+                Facilitating skill enhancement through training and add-on
+                courses.
+              </li>
+              <li>Authentic research on contemporary industrial technique.</li>
+              <li>
+                Facilitating appropriate co-curricular, extracurricular and
+                extension activities.
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="unactive section-container-info Section-information-message"
+            data-no="3"
+          >
+            <div class="accordion-0 accordions">
+              <header class="header-section-00 header-align">
+                <span class="head-serial">
+                  <h2 class="headings">Chairman's Message</h2>
+                </span>
+                <span class="icons-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="down-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </span>
+              </header>
+              <section class="content-containers">
+                <p class="content">
+                  Vels Institute of Science, Technology & Advanced Studies
+                  (VISTAS) also known as Vels University has successfully
+                  advanced into the thirteenth year since it was announced and
+                  considered to be a university in 2008. Rising from a modest
+                  start in 1992, Vels Group of Institutions has now expanded
+                  over 11 excellent educational campuses. These are equipped
+                  with international standard facilities, qualified faculty
+                  members, well trained staff, modem labs and equipment. The
+                  university also offers global exchange programs with
+                  international universities. We have a dedicated placement cell
+                  and our students have been successfully placed in top
+                  corporate companies and organizations. VISTAS holds a
+                  reputable status as an epitome of knowledge and research
+                  amongst the list of universities in India. It is admittedly a
+                  matter of great accomplishment for me to record these notable
+                  advancements that have been made in the field of giving higher
+                  education at the university The University has introduced many
+                  good practices for healthy and disciplined living, which
+                  include maintaining a healthy lifestyle, regular exercise, a
+                  healthy diet, and self-denial from tobacco and other harmful
+                  narcotics. Developing good habits during the educational
+                  period will pay huge returns later in life in the form of a
+                  healthy body and mind. We expect students to appreciate
+                  others, dress properly for the occasions, take on
+                  accountability, be persuasive, and adhere to university
+                  procedures. Innovative experimentation in many new disciplines
+                  and new scientific subjects have been introduced which will
+                  considerably help to build an atmosphere crucial for procuring
+                  a high academic standard
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="section-02" id="section-02"></section> -->
+  </body>
+</html>
